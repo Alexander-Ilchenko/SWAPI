@@ -1,0 +1,12 @@
+.content_wrapper {
+  border: 2px solid #000;
+  flex: 1 1 auto;
+  border-radius: 15px;
+  background: #923c0333;
+}
+.heroes {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

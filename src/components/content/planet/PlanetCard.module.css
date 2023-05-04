@@ -1,0 +1,32 @@
+.wruper {
+  position: relative;
+  position: absolute;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #2823207d;
+  height: 300px;
+  width: 180px;
+  bottom: 0;
+}
+.background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 300px;
+  width: 180px;
+  border-radius: 15px;
+  background-image: url(planets.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wruper h3 {
+  text-align: center;
+  position: absolute;
+  top: 150px;
+  color: rgb(1, 255, 170);
+  font-size: 34px;
+  font-weight: 500;
+}

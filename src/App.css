@@ -1,0 +1,47 @@
+body {
+  background: url(https://99px.ru/sstorage/53/2019/12/tmb_280916_393907.jpg?timestamp=1682858396346);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  height: 100vh;
+}
+.down {
+  flex: 1 1 auto;
+  display: flex;
+  column-gap: 5px;
+}
+.header {
+  border: 2px solid #000;
+  border-radius: 15px;
+  background: #923c0333;
+}
+.navbar {
+  width: 200px;
+  border: 2px solid #000;
+  border-radius: 15px;
+  background: #923c0333;
+}
+.navbar li {
+  list-style: none;
+}
+.content-wrapper {
+  border: 2px solid #000;
+  flex: 1 1 auto;
+  border-radius: 15px;
+  background: #923c0333;
+}
+.input {
+  background: transparent;
+  color: aliceblue;
+}
+.ant-btn {
+  font-size: 1.3em;
+  background: #fb3b05;
+}

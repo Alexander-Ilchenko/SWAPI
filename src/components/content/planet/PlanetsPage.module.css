@@ -1,0 +1,15 @@
+.content_wrapper {
+  border: 2px solid #000;
+  flex: 1 1 auto;
+  border-radius: 15px;
+  background: #923c0333;
+  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.peakpx.com%2Fen%2Fhd-wallpaper-desktop-kyvvr&psig=AOvVaw0Qd42Q3tWTnZe1Qra7IhZz&ust=1683278216475000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLiLrZOq2_4CFQAAAAAdAAAAABAE);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.planets {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

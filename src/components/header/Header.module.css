@@ -1,0 +1,17 @@
+.header_container {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding-left: 100px;
+  padding-top: 5px;
+
+  color: rgb(0, 255, 136);
+  width: 100px;
+}
+.search {
+  padding-right: 100px;
+}

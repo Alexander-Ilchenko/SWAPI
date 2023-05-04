@@ -1,0 +1,12 @@
+.links li {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.links a {
+  font-size: 30px;
+  color: #fb3b05;
+  text-decoration: none;
+}
+.links a:hover {
+  color: #c605fb;
+}

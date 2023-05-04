@@ -1,0 +1,47 @@
+.background_dark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 300px;
+  width: 180px;
+  align-items: center;
+  border-radius: 15px;
+  background-image: url(darkside.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(255, 0, 0);
+}
+.background_dark:hover {
+  height: 300px;
+  width: 180px;
+  box-shadow: 0px 10px 20px 5px rgba(255, 0, 0, 0.5);
+  transform: translateY(-5px);
+}
+.background_light:hover {
+  height: 300px;
+  width: 180px;
+  box-shadow: 0px 10px 20px 5px rgba(0, 255, 55, 0.5);
+  transform: translateY(-5px);
+}
+.background_light {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 300px;
+  width: 180px;
+  border-radius: 15px;
+  background-image: url(lightside.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(0, 255, 55);
+}
+h3 {
+  text-align: center;
+  position: absolute;
+  top: 220px;
+  color: inherit;
+  font-size: 34px;
+  font-weight: 500;
+}
