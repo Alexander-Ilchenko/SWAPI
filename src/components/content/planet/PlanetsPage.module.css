@@ -3,13 +3,51 @@
   flex: 1 1 auto;
   border-radius: 15px;
   background: #923c0333;
-  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.peakpx.com%2Fen%2Fhd-wallpaper-desktop-kyvvr&psig=AOvVaw0Qd42Q3tWTnZe1Qra7IhZz&ust=1683278216475000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLiLrZOq2_4CFQAAAAAdAAAAABAE);
-  background-repeat: no-repeat;
-  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .planets {
   padding: 50px;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+}
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.btn {
+  width: 45px;
+  height: 45px;
+  font-size: 26px;
+  color: #fb3b05;
+  background-color: transparent;
+  border-radius: 5px;
+  border: none;
+}
+
+.page_number:hover {
+  background-color: transparent;
+  border: solid #000;
+  border-width: 2px 2px 2px 2px;
+}
+.previos {
+  border: solid #fb3b05;
+  border-width: 0 7px 7px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  background-color: transparent;
+}
+.next {
+  border: solid #fb3b05;
+  border-width: 0 7px 7px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  background-color: transparent;
 }

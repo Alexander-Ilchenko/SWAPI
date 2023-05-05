@@ -1,3 +1,4 @@
+// создаем тип для ответа со списком
 export type SwapiResult<T> = {
   count: number;
   next: string;
@@ -5,6 +6,7 @@ export type SwapiResult<T> = {
   results: T[];
 };
 
+// тип сущности для обьекта героя
 export type Hero = {
   name: string;
   height: string;
@@ -23,6 +25,7 @@ export type Hero = {
   edited: Date;
   url: string;
 };
+// тип сущности для обьекта планеты
 export type Planet = {
   climate: string;
   created: Date;
@@ -39,12 +42,13 @@ export type Planet = {
   terrain: string;
   url: string;
 };
-
+//
 export enum Gender {
   Female = "female",
   Male = "male",
   NA = "n/a",
 }
-
+// експортируем тип для ответа со списком героев
 export type HeroesResponse = SwapiResult<Hero>;
+// експортируем тип для ответа со списком планет
 export type PlanetesResponse = SwapiResult<Planet>;

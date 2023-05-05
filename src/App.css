@@ -2,6 +2,7 @@ body {
   background: url(https://99px.ru/sstorage/53/2019/12/tmb_280916_393907.jpg?timestamp=1682858396346);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 .container {
   max-width: 1280px;

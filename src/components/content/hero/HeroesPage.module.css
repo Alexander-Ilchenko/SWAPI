@@ -3,6 +3,9 @@
   flex: 1 1 auto;
   border-radius: 15px;
   background: #923c0333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .heroes {
   padding: 50px;

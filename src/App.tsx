@@ -10,21 +10,18 @@ import { Outlet } from "react-router-dom";
 import { planetsSelector, setPlanets } from "./store/planetReducer";
 
 function App() {
-  const heroes = useSelector(heroSelector);
-
-  const planets = useSelector(planetsSelector);
-  const [hero, setHero] = useState(null);
-
+  // импортируем фуекцию диспатч из редакса
   const dispatch = useDispatch();
-  useEffect(() => {
-    const init = async () => {
-      const rep = await swapi.getPeoples();
-      dispatch(setHeroes(rep.results));
-      const per = await swapi.getPlanets();
-      dispatch(setPlanets(per.results));
-    };
-    init();
-  }, []);
+  // жизненый цикл компонента
+  // useEffect(() => {
+  //   const init = async () => {
+  //     const rep = await swapi.getPeoples();
+  //     dispatch(setHeroes(rep.results));
+  //     const per = await swapi.getPlanets();
+  //     dispatch(setPlanets(per.results));
+  //   };
+  //   init();
+  // }, []);
   return (
     <div className="container">
       <Header />
